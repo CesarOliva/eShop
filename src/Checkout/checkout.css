@@ -1,0 +1,21 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+.checkout .ad{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.checkout .cart h2{
+    margin-right: 10ox;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.checkout .left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}

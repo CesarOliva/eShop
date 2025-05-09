@@ -1,0 +1,84 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+    color: #ff9f00;
+    margin: 0 25px;
+}
+.logo .image{
+    margin-right: 10px;
+}
+.logo h2{
+    text-decoration: none;
+    border: 0;
+    color: white;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+    margin: 0 10px;
+}
+.search .searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.search .icon{
+    padding: 5px;
+    height: 22px !important;
+    background: #ff9f00;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+.navigation .item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.navigation .item .LineOne{
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 5px;     
+}
+.navigation .item .LineTwo{
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 18px;
+}
+.navigation .item.itemCart{
+    margin: 10px 20px 0 0;
+    flex-direction: row;
+}
+.navigation .cart{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.navigation .cartCount{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
