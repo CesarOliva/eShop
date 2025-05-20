@@ -1,6 +1,6 @@
 import "./CheckoutProduct.css";
 
-function CheckoutProduct({title, price, rating, img}) {
+function CheckoutProduct({id, title, price, rating, img}) {
   return (
     <div className="checkoutProduct">
         <img src={img} alt="Product"/>
