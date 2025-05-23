@@ -1,6 +1,6 @@
 # Amazon Clone Using REACT.
 
-Clon de Amazon hecho con REACT siguiendo un curso
+Clon de Amazon hecho con REACT siguiendo un curso. (05/2025)
 
 ## Descripcion
 
